@@ -129,8 +129,82 @@
 
 // STEP 14
 
-alert(typeof "Hello"); 
+// let course = "JavaScript";
+// let name = "Martin Wojciechowski";
+// alert("Hello " + name + ".\nWelcome to the " + course + " class!");
 
-let course = "JavaScript";
-let name = "Martin Wojciechowski";
-alert("Hello " + name + ", welcome to the " + course + " class!");
+// STEP 15 
+
+// Added input prompt for name to above solution
+
+// let course = "JavaScript";
+
+// const readline = require('readline');
+// const rl = readline.createInterface({
+//     input: process.stdin,
+//     output: process.stdout
+// });
+
+// rl.question('What is your name? ',
+//     function(name) {
+//         alert('Hello ' + name + '.\nWelcome to the ' + course + ' class!');
+//         rl.close();
+//     });
+
+// STEP 16
+
+// Added input prompt for course to above solution
+
+// const readline = require('readline');
+// const rl = readline.createInterface({
+//     input: process.stdin,
+//     output: process.stdout
+// });
+
+// rl.question('What is your name? ',
+//     function(name) {
+//         rl.question('What class are you taking? ',
+//             function(course) {
+//                 alert('Hello ' + name + '.\nWelcome to the ' + course + ' class!');
+//                 rl.close();
+//             });
+//     });
+
+// STEP 17
+
+// let x = 10;
+// let y = 20;
+// console.log(x + y);
+
+// STEP 18
+
+// let x = 20;
+// console.log(x+=20);
+
+// STEP 19
+
+// let x = 20;
+// console.log(x*=5)
+
+// STEP 20
+
+// let x = 20%3;
+// console.log(x/=1);
+
+// STEP 21
+
+// let age = 34;
+// let hasLicense = true;
+
+// let result = age > 18 && hasLicense === true;
+
+// console.log(result);
+
+// STEP 22
+
+// let temperature = 100;
+// let isRaining = false;
+
+// let result = temperature <= 32 || isRaining != false;
+
+// console.log(result);
